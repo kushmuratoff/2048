@@ -1,0 +1,68 @@
+<!--BRR-->
+<html>
+<head>
+    <title></title>
+    <script src="2048.js.js"></script>
+    <style>
+        input
+        {
+           
+            width:70px;
+            height:70px;
+            color:white;
+            font-size:inherit;
+            font-family:Elephant;
+        }
+        button {
+            width: 50px;
+            height: 50px;
+            background-color:tan;
+            
+        }
+        .blok
+        {
+            margin-left:300px;
+            
+        }
+        .game
+        {
+           
+            width:138px;
+            height:40px;
+        }
+        .ochko
+        {
+            margin-top:-20px;
+        }
+        .rasm
+        {
+            background-color:#0f9ba4;
+            
+        }
+        b {
+            padding-left: 20px;
+            font-size: larger;
+            font-family: Elephant;
+        }
+        .textga
+        {
+            width:100px;
+            height:30px;
+            color:black;
+        }
+    </style>
+</head>
+<body onkeydown="key(event)" >
+    <input type="text" id="ulcham" class="textga" />
+    <input  type="button" value="Boshlash" class="textga" onclick = "Boshlash()"/>
+    <br /><br/>
+   
+    
+    <!--<img  src="ref2.png " width="80" height="45" class="blok rasm"/>-->
+    <div class="blok" > <img src="ref2.png " width="80" height="45" class="rasm" onclick="Boshlash()" /> <b>ochko:</b><b id="ochko"></b></div>
+
+    <div id="blok" class="blok">
+    </div>
+    
+</body>
+</html>
